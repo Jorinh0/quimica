@@ -1,0 +1,76 @@
+/* Estilo Geral */
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe6f2; /* Rosa claro */
+  color: #4a004e; /* Roxo escuro */
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: #ff99cc; /* Rosa vibrante */
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #ffe6f2; /* Rosa suave */
+  border-left: 6px solid #ff99cc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  color: #b30059; /* Rosa escuro */
+  font-family: 'Playfair Display', serif;
+}
+
+/* Rodapé */
+footer {
+  background: #b30059; /* Rosa escuro */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
